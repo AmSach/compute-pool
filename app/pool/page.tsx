@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { getLeaderboard, registerNode, submitJob } from "@/lib/api";
+import { getLeaderboard, registerNode, submitJob } from "../../lib/api";
 
 function JoinNode() {
   const [form, setForm] = useState({ nodeName: "", gpuTier: "rtx-3060", ownerId: "user1" });

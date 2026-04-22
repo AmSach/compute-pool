@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { getStatus, getNodes, getJobs } from "@/lib/api";
+import { getStatus, getNodes, getJobs } from "../lib/api";
 
 export default function Dashboard() {
   const [status, setStatus] = useState<any>(null);
